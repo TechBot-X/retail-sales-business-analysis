@@ -1,0 +1,47 @@
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.bak
+~$*
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs and local environment
+*.log
+.env
+.env.*
+
+# Office temp files
+~$*.xlsx
+~$*.xlsm
+~$*.pptx
+*.tmp
+
+# Power BI temp/lock files
+*.pbix.lock
+*.pbix.tmp
+*.pbi
+*.tmp
+
+# Misc generated build files
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Keep project data files tracked
+!data/
+!sql/
+!excel/
+!powerbi/
+!README.md
